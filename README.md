@@ -1,2 +1,6 @@
 # website-quarto
-Develop my homepage here first...
+
+Inspiration: https://github.com/spcanelon/silvia + Apero theme.
+
+Old website: https://github.com/mine-cetinkaya-rundel/website.
+

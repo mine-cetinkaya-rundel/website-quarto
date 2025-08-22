@@ -1,0 +1,60 @@
+---
+title: "Mine Çetinkaya-Rundel, PhD"
+pagetitle: "Mine Çetinkaya-Rundel, PhD"
+subtitle: "Professor of the Practice, Statistical Science, Duke University"
+image: https://placehold.co/600x400/png
+image-alt: "Placeholder image."
+
+twitter-card:
+    title: Mine Çetinkaya-Rundel, PhD
+    description: |
+      Professor of the Practice, Statistical Science, Duke University
+    image: https://placehold.co/600x400/png
+
+about:
+  template: solana
+  image-width: 28em
+  id: hero-heading
+  links:
+    - text: "{{< fa universal-access >}}"
+      aria-label: "Accessibility statement"
+      href: accessibility.qmd
+    - text: "{{< fa brands bluesky >}}"
+      aria-label: "Bluesky"
+      href: https://bsky.app/profile/minecr.bsky.social
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://www.linkedin.com/in/minec/
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/mine-cetinkaya-rundel
+    - icon: mastodon
+      href: https://fosstodon.org/@minecr
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-6452-2420
+    - text: "{{< ai google-scholar >}}"
+      aria-label: "Google Scholar"
+      href: https://scholar.google.com/citations?hl=en&user=pUoCPM0AAAAJ
+page-layout: full
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+
+header-includes: >
+  <link rel="stylesheet" href="style/index.css">
+resources:
+  - style/index.css
+---
+
+<br><br>
+
+
+::: {#hero-heading}
+
+I am a researcher, R educator, and data journalist with a love for community. My **research** leverages electronic health record and spatial data to study the intersection of health equity and urban nature. My **journalism** and **community** projects value the partnership between open source tools and data literacy as a way to build power and effect change.
+
+[Learn more about me &rarr;](/about){.about-links .subtitle}
+
+:::

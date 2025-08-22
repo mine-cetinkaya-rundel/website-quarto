@@ -1,0 +1,75 @@
+project:
+  type: website
+
+website:
+  title: "Mine Çetinkaya-Rundel"
+  site-url: https://mine-cr.com
+  description: "Professor and Director of Undergraduate Studies, Duke University"
+  favicon: https://placehold.co/400x400/png
+  page-navigation: true
+  back-to-top-navigation: true
+ 
+  navbar:
+    logo: https://placehold.co/600x400/png
+    tools:
+    - icon: github
+      href: https://www.github.com/mine-cetinkaya-rundel/website-quarto
+    right:
+      - text: About
+        aria-label: "About Me"
+        href: about.qmd
+      - text: Blog
+        aria-label: "Blog"
+        href: blog/index.qmd
+      - text: Talks
+        aria-label: "Talks"
+        href: talk/index.qmd  
+      - text: Publications
+        aria-label: "Publications"
+        href: publication/index.qmd
+      - text: Projects
+        aria-label: "Projects"
+        href: project/index.qmd
+  
+  page-footer:  
+    left: >-
+     &#169; 2025 Mine Çetinkaya-Rundel &#8729; Made with [Quarto](https://quarto.org) and ♥️.
+    center: |
+      <a class="link-dark me-1" href="/accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener">{{< fa universal-access >}}</a>
+      <a class="link-dark me-1" href="https://bsky.app/profile/minecr.bsky.social" title="Bluesky" target="_blank" rel="noopener">{{< fa brands bluesky >}}</a>
+      <a class="link-dark me-1" href="https://linkedin.com/in/minec" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+      <a class="link-dark me-1" href="https://github.com/mine-cetinkaya-rundel" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0000-0001-6452-2420" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark me-1" href="https://scholar.google.com/citations?hl=en&user=pUoCPM0AAAAJ" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+
+    right: 
+      - text: "Accessibility"
+        aria-label: "Accessibility Commitment"
+        href: accessibility.qmd
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contact.qmd"
+      - text: "License"
+        aria-label: "License Details"
+        href: license.qmd
+      - icon: rss
+        href: blog/index.xml
+
+format: 
+  html:
+    theme:
+      light:
+        - cosmo
+        - style/theme-light.scss
+      dark: 
+        - cosmo
+        - style/theme-dark.scss
+    highlight-style:
+      light: a11y-light
+      dark: a11y-dark
+    code-link: true
+    pagetitle: "{{< meta title >}}"
+    lightbox: true
+
+execute: 
+  freeze: auto
