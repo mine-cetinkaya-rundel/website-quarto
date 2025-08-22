@@ -53,7 +53,7 @@ resources:
 
 ::: {#hero-heading}
 
-Add text...
+hello hello
 
 [Learn more about me &rarr;](/about){.about-links .subtitle}
 

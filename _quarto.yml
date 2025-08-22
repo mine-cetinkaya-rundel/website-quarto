@@ -23,7 +23,7 @@ website:
         href: blog/index.qmd
       - text: Talks
         aria-label: "Talks"
-        href: talk/index.qmd  
+        href: talks/index.qmd  
       - text: Publications
         aria-label: "Publications"
         href: publication/index.qmd
@@ -43,9 +43,6 @@ website:
       <a class="link-dark me-1" href="https://scholar.google.com/citations?hl=en&user=pUoCPM0AAAAJ" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
 
     right: 
-      - text: "Accessibility"
-        aria-label: "Accessibility Commitment"
-        href: accessibility.qmd
       - text: "Contact"
         aria-label: "Contact Form"
         href: "contact.qmd"
@@ -60,9 +57,11 @@ format:
     theme:
       light:
         - cosmo
+        - style/theme.scss
         - style/theme-light.scss
       dark: 
         - cosmo
+        - style/theme.scss
         - style/theme-dark.scss
     highlight-style:
       light: a11y-light

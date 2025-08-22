@@ -1,6 +1,8 @@
 /*-- scss:defaults --*/
 
-$mcr-primary:         #000000;
+// Colors
+
+$mcr-primary:         #00FF00;
 $mcr-primary-light:   #6C757D;
 $mcr-secondary:       #FF0000;
 $mcr-secondary-light: #FE0000;
@@ -10,5 +12,10 @@ $mcr-accent-dark:     #0000FF;
 $mcr-bg-0:            #FFFFFF;
 $mcr-bg-1:            #F0F0F0;
 $mcr-bg-00:           #FFFFFF;
+
+// Fonts
+
+$mcr-font-family:     "Atkinson Hyperlegible", sans-serif;
+$mcr-font-family-monospace:      "Fira Code", monospace;
 
 /*-- scss:rules --*/

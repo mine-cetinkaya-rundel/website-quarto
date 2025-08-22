@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mine-cr.com/index.html</loc>
-    <lastmod>2025-08-22T14:21:54.952Z</lastmod>
+    <lastmod>2025-08-22T14:46:21.562Z</lastmod>
   </url>
   <url>
     <loc>https://mine-cr.com/about.html</loc>
-    <lastmod>2025-08-22T13:00:48.959Z</lastmod>
+    <lastmod>2025-08-22T14:28:39.784Z</lastmod>
   </url>
   <url>
     <loc>https://mine-cr.com/blog/index.html</loc>
-    <lastmod>2025-08-22T13:50:45.407Z</lastmod>
+    <lastmod>2025-08-22T14:28:39.784Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mine-cr.com/talks/index.html</loc>
+    <lastmod>2025-08-22T14:35:44.534Z</lastmod>
   </url>
 </urlset>
