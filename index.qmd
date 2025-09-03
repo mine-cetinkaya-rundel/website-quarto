@@ -2,7 +2,7 @@
 title: "Mine Çetinkaya-Rundel, PhD"
 pagetitle: "Mine Çetinkaya-Rundel, PhD"
 subtitle: "Professor of the Practice, Statistical Science, Duke University"
-image: https://placehold.co/600x400/png
+image: mine-cetinkaya-rundel.jpg
 image-alt: "Placeholder image."
 
 twitter-card:
@@ -13,6 +13,7 @@ twitter-card:
 
 about:
   template: solana
+  image-shape: round
   image-width: 28em
   id: hero-heading
   links:
